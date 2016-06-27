@@ -15,3 +15,12 @@ eval {
 print "error occurred: $@" if $@;	# message goes into $@
 print "hello, world\n";
 
+
+eval{
+	eval{
+		my $n = 1 / 0;
+	};
+	die "inner: $@" if $@;
+	print "3333";
+};
+print "outer: $@" if $@;
