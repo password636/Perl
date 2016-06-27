@@ -1,6 +1,7 @@
 use strict;
 use warnings;
 
+# die-$!  partner
 # eval-$@ partner
 my $division;
 eval { $division = 1 / 0; print "1111\n"; };
