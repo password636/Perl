@@ -11,7 +11,9 @@ my @array = qw/a b c d/;
 my (undef, $m, $n) = @array;	# skip assignment of initial values
 print "$m $n\n";	# b c
 
-
+my $x = 11;
+my $x = $x;
+print "$x\n";
 
 __END__
 1. A my declares the listed variables to be local (lexically) to the enclosing block, file, or eval. If more than one variable is listed, the list must be placed in parentheses.
