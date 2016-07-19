@@ -3,7 +3,9 @@ use warnings;
 
 our $lizl = 1;
 {
-	$lizl = 2;
+	my $lizl = 2;
+	print "$lizl\n";
+	our $lizl;
 	print "$lizl\n";
 }
 print "$lizl\n";

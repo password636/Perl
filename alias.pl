@@ -17,3 +17,16 @@ print "@heights\n";
 my @qualified = grep { ($_ += 2) > 170 } @heights;
 print "@heights\n";
 print "@qualified\n";
+
+# @_ in subroutine
+my @args = qw/a b c/;
+print "@args\n";
+sub func
+{
+	for my $item (@_)
+	{
+		$item .= "end";
+	}
+}
+func(@args);
+print "@args\n";
