@@ -28,3 +28,14 @@ print "$s\n";
 
 $s = sprintf '%d %0*d', 3, 2, 9;
 print "$s\n";
+
+__END__
+%
+
+format_parameter_index		2$
+flags				0 - 
+vector_flag			v
+minimum_field_width		6
+precison/maximum_field_width	.2
+
+format_letter
