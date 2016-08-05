@@ -2,8 +2,8 @@ use strict;
 use warnings;
 
 # local to the "call chain"
-our $var = 8;
-print "out: $var\n";
+#our $var = 8;
+#print "out: $var\n";
 
 sub func1
 {
@@ -14,7 +14,7 @@ sub func1
 sub func
 {
 	#local $var = 9;
-	local $var;
+	local our $var = 9;
 	print "func: $var\n";
 	func1;
 }
@@ -22,5 +22,5 @@ sub func2
 {
 	print "func2: $var\n";
 }
-print "out: $var\n";
+#print "out: $var\n";
 func;

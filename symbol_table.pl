@@ -1,6 +1,13 @@
 #use strict;
 use warnings;
 
+$aa = "simple string";
+@bb = 1..10;
+while (my ($key, $value) = each %main::)
+{
+	print "$key\t$value\n";
+}
+
 package Foo;
 
 our @n = 1..3;
@@ -8,12 +15,18 @@ our $string = "hello";
 our %dict = (name=>'lizl');
 sub add { $_[0] + $_[1] }
 
-print "$_\n" for keys %Foo::;
-print "$_\n" for values %Foo::;
 
-use Data::Dumper;
-print Dumper(\%Foo::);
+while (my ($key, $value) = each %Foo::)
+{
+	print "$key\t$value\n";
+}
 
+#print "$_\n" for keys %Foo::;
+#print "$_\n" for values %Foo::;
+#use Data::Dumper;
+#print Dumper(\%Foo::);
+
+__END__
 print *Foo::n{ARRAY},"\n";
 
 my %hh = (
