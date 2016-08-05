@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 
-# two features
 my $vv = 19;
 print $vv, "\n";
 
@@ -10,7 +9,9 @@ print "@rray\n";
 
 foreach $vv (@rray)
 {
-	$vv = 'b';	# control variable is alias
+	$vv = 'b';	# alias
 }
-print $vv, "\n";	# control variable is save-and-restore
+print $vv, "\n";	# save-and-restore
 print "@rray\n";
+
+print "$_\n" foreach 1..10;	# default is $_

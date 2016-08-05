@@ -1,0 +1,191 @@
+====================
+version::
+/
+stderr
+_<mro.c
+Tie::
+utf8::
+"
+ARNING_BITS
+re::
+CORE::
+DynaLoader::
+mro::
+strict::
+stdout
+attributes::
+
+stdin
+ARGV
+INC
+ENV
+Regexp::
+UNIVERSAL::
+$
+_<perlio.c
+E_TRIE_MAXBUF
+main::
+Carp::
+_<perlmain.c
+PerlIO::
+0
+_<universal.c
+BEGIN
+
+@
+_<xsutils.c
+STDOUT
+IO::
+
+_
+sep
+STDERR
+Internals::
+STDIN
+lizl
+warnings::
+DB::
+====================
+*main::version::
+*main::/
+*main::stderr
+*main::_<mro.c
+*main::Tie::
+*main::utf8::
+*main::"
+*main::ARNING_BITS
+*main::re::
+*main::CORE::
+*main::DynaLoader::
+*main::mro::
+*main::strict::
+*main::stdout
+*main::attributes::
+*main::
+*main::stdin
+*main::ARGV
+*main::INC
+*main::ENV
+*main::Regexp::
+*main::UNIVERSAL::
+*main::$
+*main::_<perlio.c
+*main::E_TRIE_MAXBUF
+*main::main::
+*main::Carp::
+*main::_<perlmain.c
+*main::PerlIO::
+*main::0
+*main::_<universal.c
+*main::BEGIN
+*main::
+*main::@
+*main::_<xsutils.c
+*main::STDOUT
+*main::IO::
+*main::
+*main::_
+*main::sep
+*main::STDERR
+*main::Internals::
+*main::STDIN
+*main::lizl
+*main::warnings::
+*main::DB::
+====================
+key _ exists
+====================
+version::			*main::version::
+/			*main::/
+stderr			*main::stderr
+_<mro.c			*main::_<mro.c
+Tie::			*main::Tie::
+utf8::			*main::utf8::
+"			*main::"
+ARNING_BITS			*main::ARNING_BITS
+re::			*main::re::
+CORE::			*main::CORE::
+DynaLoader::			*main::DynaLoader::
+mro::			*main::mro::
+strict::			*main::strict::
+stdout			*main::stdout
+attributes::			*main::attributes::
+			*main::
+stdin			*main::stdin
+ARGV			*main::ARGV
+INC			*main::INC
+ENV			*main::ENV
+Regexp::			*main::Regexp::
+UNIVERSAL::			*main::UNIVERSAL::
+$			*main::$
+_<perlio.c			*main::_<perlio.c
+E_TRIE_MAXBUF			*main::E_TRIE_MAXBUF
+main::			*main::main::
+Carp::			*main::Carp::
+_<perlmain.c			*main::_<perlmain.c
+PerlIO::			*main::PerlIO::
+0			*main::0
+_<universal.c			*main::_<universal.c
+BEGIN			*main::BEGIN
+			*main::
+@			*main::@
+_<xsutils.c			*main::_<xsutils.c
+STDOUT			*main::STDOUT
+IO::			*main::IO::
+			*main::
+_			*main::_
+sep			*main::sep
+STDERR			*main::STDERR
+Internals::			*main::Internals::
+STDIN			*main::STDIN
+lizl			*main::lizl
+warnings::			*main::warnings::
+DB::			*main::DB::
+====================
+key `lizl' exists, delete it.
+version::
+/
+stderr
+_<mro.c
+Tie::
+utf8::
+"
+ARNING_BITS
+re::
+CORE::
+DynaLoader::
+mro::
+strict::
+stdout
+attributes::
+
+stdin
+ARGV
+INC
+ENV
+Regexp::
+UNIVERSAL::
+$
+_<perlio.c
+E_TRIE_MAXBUF
+main::
+Carp::
+_<perlmain.c
+PerlIO::
+0
+_<universal.c
+BEGIN
+
+@
+_<xsutils.c
+STDOUT
+IO::
+
+_
+sep
+STDERR
+Internals::
+STDIN
+warnings::
+DB::
+a simple string
