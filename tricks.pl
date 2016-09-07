@@ -9,24 +9,6 @@ my @computerss= qw/desktop production engineer/; # qw shortcut
 my @empty_array = 5..1;	# range operator only counts uphill
 my @empty_array1= ();	# tradional way
 
-# slices : selectively
-# @name[]
-# @name{}
-my @names = qw/slash filippo axl steve beckham/;
-my @football_players = @names[1,4]; # array slice ($name[1], $names[4]), not 1 to 4
-my @guns_and_roses = @names[0,2,3];
-print "@football_players\n";
-print "@guns_and_roses\n";
-
-my %hash = (
-	A => 1,
-	B => 2,
-	C => 3,
-	D => 4
-);
-my @array = @hash{"B", 'D'};	# hash slice ($hash{"B"}, $hash{'D'})
-printf "@array\n";
-
 
 # use * as minimus field width in printf, printf will use the first item
 # of the following list as minimu field width
