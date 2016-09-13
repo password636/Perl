@@ -53,3 +53,10 @@ my %info1 = (
 print $info1{age}, "\n";
 print scalar keys %info1, "\n";  # still 3 pairs
 
+# hash index can be scalar variable
+for my $key (keys %hash)
+{
+	print "$key $hash{$key}\n";
+}
+# can join a hash
+print( join (" ", %hash), "\n");

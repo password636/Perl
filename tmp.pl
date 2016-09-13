@@ -13,3 +13,10 @@ print $obj->getName();
 
 my @array2 = qw(a \) b);
 print "@array2\n";
+
+
+my %hash = (
+	name=>'lizl',
+	age=>18,
+);
+
