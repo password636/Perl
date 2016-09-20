@@ -1,22 +1,15 @@
 use strict;
 use warnings;
 
-if ( "c 2aa1 b" =~ /\b(2aa1)\b/)
+
+print "subroutine is defined\n" if defined &myf;
+myf();
+
+sub myf
 {
-	print "$1\n";
+	print "called myf\n";
 }
 
-
-use tmp;
-my $obj = new tmp;
-print $obj->getName();
-
-my @array2 = qw(a \) b);
-print "@array2\n";
-
-
-my %hash = (
-	name=>'lizl',
-	age=>18,
-);
-
+undef &myf;
+#myf();
+print "now subroutine is defined\n" if defined &myf;

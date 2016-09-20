@@ -3,9 +3,9 @@ use warnings;
 
 # scalar variable
 my $foo = "foo";	
-# array variable
+# array
 my @company = qw/NEC Symantec TianLian Spirent/;	
-# hash variable
+# hash
 my %myInfo = (
 	name => "lizl",
 	age => 33,
