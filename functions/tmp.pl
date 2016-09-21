@@ -1,9 +1,7 @@
 use strict;
 use warnings;
 
-sub myf
-{
-	print "called myf $_[0]\n";
-}
-
-myf 'aa';
+my $_ = "a:b!c!d";
+my @array = split /[:]/;
+print scalar @array, "\n";
+print "|$_|\n" for @array;
