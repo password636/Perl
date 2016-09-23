@@ -30,6 +30,14 @@ sub aname
 	print "@_\n";
 }
 aname "arg1", "arg2";
-&name "arg1", "arg2";
+#&name "arg1", "arg2";
 aname("arg1", "arg2");
 &aname("arg1", "arg2");
+
+print "matched\n" if ("ab" =~ /ab(a*)/);
+if ("ab" =~ /ab(a*)(b*)/)
+{
+	print "empty string\n" if $2 eq '';
+}
+
+
