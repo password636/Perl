@@ -11,3 +11,4 @@ BEGIN {
 $aaa = EXITED;
 }
 print "$aaa\n";
+
