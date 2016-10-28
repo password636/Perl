@@ -20,7 +20,7 @@ print scalar @wilma, " elements\n";
 # 	-4 -3 -2 -1
 
 # 3 ways to get the last element of an array
-printf "$fred[$#fred]\n";	# $#name is NOT number of elements, but is the last index.
+printf "$fred[$#fred]\n";	# $#name: the last index, the highest index
 printf "$fred[-1]\n";		# preferred
 printf "$fred[99]\n";
 

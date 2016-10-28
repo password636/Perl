@@ -3,7 +3,9 @@ use warnings;
 
 sub f1
 {
+eval{
 	f2();
+};
 }
 sub f2
 {
