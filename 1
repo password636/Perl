@@ -1,12 +1,17 @@
 use strict;
 use warnings;
 
-my @ary = qw/b/;
-#print $#ary;
+use constant PI => 4*atan2(1,1);		# scalar constant
+use constant WEEKDAYS => qw/Sunday Monday Tuesday Wednesday Thursday Friday Saturday/;	# list constant
+use constant WEEKDAYS1 => ();	# list constant
 
-use JT;
+if (defined WEEKDAYS1)
+{
+	print "defined\n";
+}
+else
+{
+	print "undef\n";
+}
 
-JT::error_handler("a", "b", "c");
-JT->error_handler("a", "b", "c");
-
-#print JT::RESULT->{JT::PASS};
+print (WEEKDAYS)[0], "\n";
